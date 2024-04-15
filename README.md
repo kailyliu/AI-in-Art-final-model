@@ -8,3 +8,7 @@ Keras API: https://keras.io/guides/functional_api/
 
 Code Reference: https://github.com/rodrigobressan/keras-multi-output-model-utk-face?tab=readme-ov-file
 
+#### To run: 
+1. Clone repository
+2. Add dataset to a folder called /UTKFace in the base directory 
+3. Run jupyter notebook 
