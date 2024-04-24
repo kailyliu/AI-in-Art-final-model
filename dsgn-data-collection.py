@@ -9,7 +9,7 @@ client = OpenAI()
 # Generate image using OpenAI API 
 response = client.images.generate(
     model="dall-e-3", 
-    prompt="Generate a colored, profile photo of a real drug dealer on a white background. It should look similar to an ID photo. Make it look like a camera took the photo. Make sure the person looks like a real human being", 
+    prompt="Generate a colored, profile photo of a real lawyer on a white background. It should look similar to an ID photo. Make it look like a camera took the photo. Make sure the person looks like a real human being", 
     size="1024x1024", 
     quality="standard", 
     n=1,
@@ -19,7 +19,7 @@ response = client.images.generate(
 image_url = response.data[0].url
 
 # Create a folder to save the iamges if it doesn't exist 
-folder_path = "generated_images_drug_dealer"
+folder_path = "generated_images_lawyerr"
 if not os.path.exists(folder_path):
     os.makedirs(folder_path)
 
